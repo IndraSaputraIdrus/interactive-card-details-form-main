@@ -3,8 +3,8 @@ import clsx from "clsx";
 function CardFront({ cardName, cardNumber, cardDate }) {
   return (
     <div className="relative rounded-lg shadow-xl">
-      <img src="/bg-card-front.png" />
-      <img className="absolute top-5 left-5" src="/card-logo.svg" />
+      <img src="/images/bg-card-front.png" />
+      <img className="absolute top-5 left-5" src="/images/card-logo.svg" />
       <p
         className={clsx(
           "absolute bottom-16 left-5",
